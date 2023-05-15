@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <link rel="shortcut icon"
+        href="data:image/png;base64,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"
+        type="image/x-icon">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.css'> -->
+    <link rel='stylesheet' type='text/css' media='screen' href='calculadora.css'>
+
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <p>
+            Calculadora David Lattanzio Castillo
+        </p>
+        <div class="calculator">
+            <div class="calculator__display">0</div>
+
+            <div class="calculator__keys">
+                <button class="key--operator" data-action="add">+</button>
+                <button class="key--operator" data-action="subtract">-</button>
+                <button class="key--operator" data-action="multiply">&times;</button>
+                <button class="key--operator" data-action="divide">÷</button>
+                <button id="id7">7</button>
+                <button id="id8">8</button>
+                <button id="id9">9</button>
+                <button id="id4">4</button>
+                <button id="id5">5</button>
+                <button id="id6">6</button>
+                <button id="id1">1</button>
+                <button id="id2">2</button>
+                <button id="id3">3</button>
+                <button id="id0">0</button>
+                <button class="key--operator" id="raiz" data-action="root">√</button>
+                <button class="key--operator" id="elevado" data-action="power">X¹</button>
+                <button class="key--operator" id="porcentaje" data-action="porcentaje">%</button>
+                <button class="key--operator" id="comma" data-action="decimal">.</button>
+                <button class="key--operator" id="clear" data-action="clear">AC</button>
+                <button class="key--equal" data-action="calculate">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const calculator = document.querySelector(".calculator")
+    console.log(calculator)
+    const keys = calculator.querySelector(".calculator__keys")
+    console.log(keys)
+    const display = document.querySelector('.calculator__display')
+
+    keys.addEventListener("click", e => {
+        if (e.target.matches("button")) {
+            const key = e.target
+            const action = key.dataset.action
+            const keyContent = key.textContent
+            const displayedNum = display.textContent
+            const previousKeyType = calculator.dataset.previousKeyType
+            if (!action) {
+                if (displayedNum === '0' || previousKeyType === 'operator') {
+                    display.textContent = keyContent
+                } else {
+                    display.textContent = displayedNum + keyContent
+                }
+            }
+            if (
+                action === 'add' ||
+                action === 'subtract' ||
+                action === 'multiply' ||
+                action === 'divide' ||
+                action === 'root' ||
+                action === 'power' ||
+                action === 'porcentaje'
+            ) {
+                key.classList.add('is-depressed')
+                calculator.dataset.previousKeyType = 'operator'
+                calculator.dataset.firstValue = displayedNum
+                calculator.dataset.operator = action
+
+                console.log('operator key!')
+            }
+            if (action === 'decimal') {
+                display.textContent = displayedNum + '.'
+                console.log('decimal key!')
+            }
+
+            if (action !== 'clear') {
+                const clearButton = calculator.querySelector('[data-action=clear]')
+                clearButton.textContent = 'CE'
+            }
+            if (action === 'clear') {
+                console.log('clear key!')
+                if (key.textContent === 'AC') {
+                    calculator.dataset.firstValue = ''
+                    calculator.dataset.modValue = ''
+                    calculator.dataset.operator = ''
+                    calculator.dataset.previousKeyType = ''
+                } else {
+                    key.textContent = 'AC'
+                }
+
+                display.textContent = 0
+                calculator.dataset.previousKeyType = 'clear'
+            }
+
+            if (action === 'calculate') {
+                const firstValue = calculator.dataset.firstValue
+                const operator = calculator.dataset.operator
+                const secondValue = displayedNum
+
+                display.textContent = calculate(firstValue, operator, secondValue)
+                console.log('equal key!')
+            }
+            Array.from(key.parentNode.children).forEach(k => k.classList.remove('is-depressed'))
+        }
+
+    })
+
+    const calculate = (n1, operator, n2) => {
+        let result = ''
+
+        if (operator === 'add') {
+            result = parseFloat(n1) + parseFloat(n2)
+        } else if (operator === 'subtract') {
+            result = parseFloat(n1) - parseFloat(n2)
+        } else if (operator === 'multiply') {
+            result = parseFloat(n1) * parseFloat(n2)
+        } else if (operator === 'divide') {
+            result = parseFloat(n1) / parseFloat(n2)
+        } else if (operator === 'power') {
+            result = Math.pow(parseFloat(n1), parseFloat(n2))
+        } else if (operator === 'root') {
+            result = Math.sqrt(parseFloat(n1))
+        } else if (operator === 'root') {
+            result = Math.sqrt(parseFloat(n1))
+        } else if (operator === 'porcentaje') {
+            result = parseFloat(n1) * parseFloat(n2) / 100
+        }
+
+        return result
+    }
+
+
+
+</script>
+
+</html>
